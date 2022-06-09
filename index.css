@@ -35,7 +35,7 @@
     padding-top: 20px;
   }
   
-  .sidenav a {
+  a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -43,7 +43,7 @@
     display: block;
   }
   
-  .sidenav a:hover {
+  a:hover {
     color: black;
   }
   
@@ -55,5 +55,5 @@
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    a {font-size: 18px;}
   }
