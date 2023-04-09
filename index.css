@@ -1,6 +1,7 @@
  body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     background-color: #333538;
     color: white;
   }
@@ -8,7 +9,7 @@
   .header {
     padding: 10px 16px;
      margin-left: 160px;
-    background: #262729;
+    background: #1E1F21;
     color: #f1f1f1;
   }
   
@@ -51,6 +52,14 @@
     margin-left: 160px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+  }
+
+  .main a {
+    padding: 0;
+    text-decoration: underline;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
   }
   
   @media screen and (max-height: 450px) {
